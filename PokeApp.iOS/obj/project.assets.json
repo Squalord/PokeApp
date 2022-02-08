@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "PokeApi.NET/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -155,6 +164,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "PokeApi.NET": "1.1.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -167,6 +177,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "PokeApi.NET/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -320,6 +339,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "PokeApi.NET": "1.1.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -332,6 +352,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "PokeApi.NET/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -485,6 +514,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "PokeApi.NET": "1.1.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -497,6 +527,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "PokeApi.NET/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -650,6 +689,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "PokeApi.NET": "1.1.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -663,6 +703,21 @@
     }
   },
   "libraries": {
+    "PokeApi.NET/1.1.2": {
+      "sha512": "zUcGE/CcMBrlSrd3tXGvw5KQ2iycKZqdD/HvjBppHoHspUPM40H2ST6coi8xC5shrj4U9s1mBCzKfgKiAVc7VQ==",
+      "type": "package",
+      "path": "pokeapi.net/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PokeApi.NET.dll",
+        "lib/net45/PokeApi.NET.xml",
+        "lib/netstandard2.0/PokeApi.NET.dll",
+        "lib/netstandard2.0/PokeApi.NET.xml",
+        "pokeapi.net.1.1.2.nupkg.sha512",
+        "pokeapi.net.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",

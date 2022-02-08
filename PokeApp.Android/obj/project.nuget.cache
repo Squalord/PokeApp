@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DMOSGcfVMDLZYvfVL7K4XLuc0yGPaU9iBCzSMvQNZl/qzMQpuAbEdRJ40ToS15JsroBxJFdJIIfkxlKe0JUCTg==",
+  "dgSpecHash": "ikIHh6WRS42YaoSt7yKJZL5tQl9GNvAQsJn/whQahu3WE9CeiX50HQOcBd5spqh0H6gbT8yMgIYRhi4YM9ZGXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.Android\\PokeApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rodli\\.nuget\\packages\\pokeapi.net\\1.1.2\\pokeapi.net.1.1.2.nupkg.sha512",
     "C:\\Users\\rodli\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

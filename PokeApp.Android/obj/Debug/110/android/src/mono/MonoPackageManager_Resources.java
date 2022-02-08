@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "PokeApp.Android.dll" comes first in this list. */
 		"PokeApp.Android.dll",
 		"FormsViewGroup.dll",
+		"PokeApi.NET.dll",
 		"PokeApp.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

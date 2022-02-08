@@ -13,3 +13,6 @@ C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\PokeApp.dll
 C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\ref\PokeApp.dll
 C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\PokeApp.pdb
+C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\Views\Accueil.xaml.g.cs
+C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\Views\Ajout.xaml.g.cs
+C:\Users\rodli\source\repos\PokeApp\PokeApp\obj\Debug\netstandard2.0\Views\Liste.xaml.g.cs

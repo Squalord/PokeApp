@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NB0+7teXmIbxrq+Q0NNX6ZsxjGKnb6xcKN6Ut5jEDTxFCl4FDnnVqG1OBlD9DJgeKZnjnVQcZOoEnoF6Ka7c6w==",
+  "dgSpecHash": "zreEgMiJJhSHxtJfIyhk2UfDHTg9MxJoUDJqU64yMUajOwh9gjy07uQ14rlAQcBTPItWw2vgYeXBA+CocaFYUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rodli\\.nuget\\packages\\pokeapi.net\\1.1.2\\pokeapi.net.1.1.2.nupkg.sha512",
     "C:\\Users\\rodli\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
