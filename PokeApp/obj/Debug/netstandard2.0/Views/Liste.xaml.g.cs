@@ -14,7 +14,7 @@ namespace PokeApp.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Liste.xaml")]
-    public partial class Liste : global::Xamarin.Forms.ContentPage {
+    public partial class Liste : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

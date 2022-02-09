@@ -1,11 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PokeApp.Views.Liste"
-             Title="Liste">
-  <ContentPage.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentPage.Content>
-</ContentPage>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:PokeApp.ViewModels" 
+             x:DataType="viewmodels:PokemonsVM"
+             x:Class="PokeApp.Views.Liste">
+    <ListView 
+        CachingStrategy="RecycleElement" 
+        ItemsSource="{Binding MyList}"
+        RowHeight="120">
+        
+        <ListView.Header>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Pokedex"/>
+            </StackLayout>
+        </ListView.Header>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="{Binding Image}" HeightRequest="100" WidthRequest="100"/>
+                        <Label Text="{Binding Id}"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Type}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentView>
