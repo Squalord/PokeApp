@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj": {}
+    "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj": {
+    "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
         "projectName": "PokeApp.iOS",
-        "projectPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\rodli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\Squalord\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Squalord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
-                "projectPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj"
+              "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
+                "projectPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
+    "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
+        "projectUniqueName": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
         "projectName": "PokeApp",
-        "projectPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
-        "packagesPath": "C:\\Users\\rodli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\obj\\",
+        "projectPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
+        "packagesPath": "C:\\Users\\Squalord\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Squalord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

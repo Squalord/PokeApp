@@ -1046,24 +1046,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rodli\\.nuget\\packages\\": {},
+    "C:\\Users\\Squalord\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
       "projectName": "PokeApp.iOS",
-      "projectPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\rodli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\PokeApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Squalord\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rodli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Squalord\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1077,8 +1077,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
-              "projectPath": "C:\\Users\\rodli\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj"
+            "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
+              "projectPath": "C:\\Users\\Squalord\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj"
             }
           }
         }

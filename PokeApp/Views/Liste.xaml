@@ -3,9 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PokeApp.Views.Liste"
              Title="Liste">
-  <ContentPage.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentPage.Content>
+    <ListView x:Name="PokemonList">
+
+        <ListView.Header>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Pokedex"/>
+            </StackLayout>
+        </ListView.Header>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Hello Xamarin.Forms!"/>
+                        <Image Source="Diancie.png" HeightRequest="100" WidthRequest="100"/>
+                        <Label Text="719"/>
+                        <Label Text="Diancie"/>
+                        <Label Text="Roche - Fée"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
