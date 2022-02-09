@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApp.Android", "PokeApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApp.iOS", "PokeApp.iOS\PokeApp.iOS.csproj", "{9A8C7558-9A59-44AC-A379-13F2D455B00C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApp", "PokeApp\PokeApp.csproj", "{E83749F8-3F6F-420D-B76E-113C7CA888DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeApp", "PokeApp\PokeApp.csproj", "{E83749F8-3F6F-420D-B76E-113C7CA888DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
