@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PokeApp.Views.Liste"
-             Title="Liste">
-    <ListView x:Name="PokemonList">
-
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:PokeApp.ViewModels" 
+             x:DataType="viewmodels:PokemonsVM"
+             x:Class="PokeApp.Views.Liste">
+    <ListView 
+        CachingStrategy="RecycleElement" 
+        ItemsSource="{Binding MyList}"
+        RowHeight="120">
+        
         <ListView.Header>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Pokedex"/>
@@ -15,14 +19,13 @@
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Hello Xamarin.Forms!"/>
-                        <Image Source="Diancie.png" HeightRequest="100" WidthRequest="100"/>
-                        <Label Text="719"/>
-                        <Label Text="Diancie"/>
-                        <Label Text="Roche - Fée"/>
+                        <Image Source="{Binding Image}" HeightRequest="100" WidthRequest="100"/>
+                        <Label Text="{Binding Id}"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Type}"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
-</ContentPage>
+</ContentView>

@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace PokeApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Liste : ContentPage
+    public partial class Liste : ContentView
     {
         public Liste()
         {

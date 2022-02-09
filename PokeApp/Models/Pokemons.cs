@@ -6,33 +6,12 @@ namespace PokeApp.Models
 {
     public class Pokemons
     {
-        public int id;
-        public string name;
-        public string type;
-        public string image;
+        public int Id { get; set; }
 
-        public int Id
-        {
-            get => id;
-            set => id = value;
-        }
+        public string Name {get; set;}
 
-        public string Name
-        {
-            get => name;
-            set => name = value;
-        }
+        public string Type {get;set;}
 
-        public string Type
-        {
-            get => type;
-            set => type = value;
-        }
-
-        public string Image
-        {
-            get => image;
-            set => image = value;
-        }
+        public string Image {get;set;}
     }
 }

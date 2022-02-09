@@ -3,13 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
-
+using System.ComponentModel;
 namespace PokeApp.ViewModels
 {
-    public class PokemonsVM
+    public class PokemonsVM : INotifyPropertyChanged
     {
         private ObservableCollection<Pokemons> myList;
 
+        public event PropertyChangedEventHandler PropertyChanged;
         public ObservableCollection<Pokemons> MyList
         {
             get { return myList; }
@@ -21,10 +22,11 @@ namespace PokeApp.ViewModels
             MyList = new ObservableCollection<Pokemons>() {
                 new Pokemons()
                 {
-                    Id = 1,
+                    Id = 719,
                     Name = "Diancie",
-                    Type = "Normal"
-                },
+                    Type = "Normal",
+                    Image = "Diancie.png"
+                }
             };
         }
     }
